@@ -1,6 +1,15 @@
 # Cinequest
 Java application designed for efficient cataloging, rating, and reviewing of your favourite movies, along with your friends
 
+## Introduction
+My love for movies has been a constant part of my life, from the enchanting stories that captivated my childhood to the cinematic adventures that shaped my teen years. This profound passion inspired a creative journey, leading me to embark on a project that seamlessly blends my academic pursuits in Database and Object-Oriented Programming courses with my genuine enthusiasm for the world of cinema.
+
+I wanted to create a personalized space for movie enthusiasts, so I came up with an idea of developing an application, a virtual movie hub where I could curate my favorite films
+
+The application is designed as a comprehensive solution for cataloging, rating, and reviewing movies. It is distinguished by its interactive features which make it ideal for sharing the joy of cinema with friends and family. A key highlight lies in the ability to engage with others' reviews, creating a dynamic space for discussions and shared cinematic experiences.
+
+The collaborative nature of the app extends beyond personal connections. The application incorporates an innovative ranking system that aggregates user ratings to determine the average ranking
+
 ## Technologies used
 + **JavaFx for the GUI:** The graphical user interface is built using JavaFx, providing an intuitive and visually appealing experience for users.
 + **JDBC for Database Connectivity:** Cinequest seamlessly integrates with a PostgreSQL database using JDBC, facilitating secure and efficient communication between the application and the backend.
