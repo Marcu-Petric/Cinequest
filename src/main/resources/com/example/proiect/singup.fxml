@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="402.0" maxWidth="591.0" minHeight="402.0" minWidth="591.0" prefHeight="402.0" prefWidth="591.0" spacing="10.0" style="-fx-background-color: #071b24;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiect.SignUp_Controler">
+   <children>
+      <Label text="JOIN CINÉQUEST" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="10.0" text="Email address" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_email" maxWidth="530.0" promptText="bestmovieapp@cinequest.com" style="-fx-text-fill: #FFFFFF; -fx-background-color: #23455b;" />
+      <Label text="Username" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_username" maxWidth="530.0" promptText="Username" style="-fx-background-color: #23455b; -fx-text-filll: #FFFFFF;">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></TextField>
+      <Label text="Password" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pf_password" maxWidth="530.0" promptText="Password" style="-fx-background-color: #23455b; -fx-text-fill: #FFFFFF;" />
+      <Label text="Re-enter password" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pf_repeatedpassword" maxWidth="530.0" promptText="Password" style="-fx-background-color: #23455b; -fx-text-fill: #FFFFFF;" />
+      <CheckBox fx:id="cb_agree" mnemonicParsing="false" text="I agree with Cinéquest's User Agreement and Privacy Policy " textFill="WHITE">
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding></CheckBox>
+      <Button fx:id="button_createacc" mnemonicParsing="false" style="-fx-background-color: #2f5830;" text="Create account" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font></Button>
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </padding>
+</VBox>

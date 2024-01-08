@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" spacing="30.0" style="-fx-background-color: #23455b;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiect.HomeControler">
+   <children>
+      <HBox style="-fx-background-color: #071b24;">
+         <children>
+            <Button fx:id="button_home" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Cinéquest" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </Button>
+            <Region HBox.hgrow="ALWAYS" />
+            <Button fx:id="button_films" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Films" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </Button>
+            <Button fx:id="button_lists" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Lists" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </Button>
+            <Button fx:id="button_reviews" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Reviews" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </Button>
+            <Button fx:id="button_search" layoutX="504.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Search" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </Button>
+            <Button fx:id="button_watchlist" layoutX="390.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Watchlist" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </Button>
+            <Button fx:id="button_signout" layoutX="528.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: #2f5830;" text="Sign Out" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </Button>
+         </children>
+      </HBox>
+      <Region VBox.vgrow="ALWAYS" />
+      <Label text="Our Lists" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="39.0" />
+         </font>
+      </Label>
+      <Region VBox.vgrow="ALWAYS" />
+      <HBox alignment="TOP_CENTER" VBox.vgrow="ALWAYS">
+         <children>
+            <Region />
+            <VBox alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="343.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS">
+                     <image>
+                        <Image url="@best_movies.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </ImageView>
+                  <Button fx:id="button_50" mnemonicParsing="false" style="-fx-background-color: #2f5830;" text="Cinequest top50" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <Region HBox.hgrow="ALWAYS" />
+            <VBox alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="347.0" fitWidth="234.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS">
+                     <image>
+                        <Image url="@founders_fav.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </ImageView>
+                  <Button fx:id="button_ff" mnemonicParsing="false" style="-fx-background-color: #2f5830;" text="Founder's favourites" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <Region HBox.hgrow="ALWAYS" />
+            <VBox alignment="TOP_CENTER">
+               <children>
+                  <Region VBox.vgrow="ALWAYS" />
+                  <Button fx:id="button_addMovie" mnemonicParsing="false" style="-fx-background-color: #2f5830;" text="Add Movie" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Button>
+                  <Region layoutX="10.0" layoutY="10.0" VBox.vgrow="ALWAYS" />
+                  <Button fx:id="button_addDirector" layoutX="10.0" layoutY="184.0" mnemonicParsing="false" style="-fx-background-color: #2f5830;" text="Add director" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Button>
+                  <Region layoutX="10.0" layoutY="243.0" VBox.vgrow="ALWAYS" />
+                  <Button fx:id="button_addList" mnemonicParsing="false" style="-fx-background-color: #2f5830;" text="Add List" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Button>
+                  <Region />
+               </children>
+            </VBox>
+            <Region />
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+         </children>
+         <padding>
+            <Insets left="100.0" right="100.0" />
+         </padding>
+      </HBox>
+      <Region VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>
