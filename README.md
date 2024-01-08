@@ -155,4 +155,4 @@ Press the **reviews** button from the navigation menu to see a table with all th
 
 ### Founder's Favorites
 
-![Founder's Favorites](https://github.com/Marcu-Petric/Cinequest/assets/87765474/0e1232a4-4a23-499e)
+![image](https://github.com/Marcu-Petric/Cinequest/assets/87765474/0e1232a4-4a23-499e-a1c5-f11223cb766f)
