@@ -1,6 +1,10 @@
 # Cinequest
 Java application designed for efficient cataloging, rating, and reviewing of your favourite movies, along with your friends
 
+## Author
+
+Petric Marcu Cristian | 2nd Year Computer Science | Technical University of Cluj-Napoca
+
 ## Introduction
 My love for movies has been a constant part of my life, from the enchanting stories that captivated my childhood to the cinematic adventures that shaped my teen years. This profound passion inspired a creative journey, leading me to embark on a project that seamlessly blends my academic pursuits in Database and Object-Oriented Programming courses with my genuine enthusiasm for the world of cinema.
 
