@@ -27,7 +27,7 @@
             <Font name="Arial Rounded MT Bold" size="12.0" />
          </font>
       </Label>
-      <TextField fx:id="tf_username" maxWidth="530.0" promptText="Username" style="-fx-background-color: #23455b; -fx-text-filll: #FFFFFF;">
+      <TextField fx:id="tf_username" maxWidth="530.0" promptText="Username" style="-fx-text-fill: #FFFFFF; -fx-background-color: #23455b;">
          <font>
             <Font name="Arial Rounded MT Bold" size="12.0" />
          </font></TextField>
